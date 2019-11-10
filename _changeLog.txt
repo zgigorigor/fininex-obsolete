@@ -1,0 +1,20 @@
+####    _changeLog.txt      ####
+
+####  
+
+      Title: fininex
+     Author: Igor Bistrovic
+    Company: 
+    Project: AutoLife
+    Version: 0.0.1
+UpdateNotes: 
+ Change log: 
+ 19/11/10:   - created "README.txt"
+             - created "_changeLog.txt"
+             - created git repository
+             - created ".gitignore":
+                                    .vs
+             - created c# project 
+             
+
+####
