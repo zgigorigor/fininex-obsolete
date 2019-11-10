@@ -1,0 +1,11 @@
+D:\dev\Training\dotNet\fininex\fininex\bin\Debug\netcoreapp3.0\fininex.exe
+D:\dev\Training\dotNet\fininex\fininex\bin\Debug\netcoreapp3.0\fininex.deps.json
+D:\dev\Training\dotNet\fininex\fininex\bin\Debug\netcoreapp3.0\fininex.runtimeconfig.json
+D:\dev\Training\dotNet\fininex\fininex\bin\Debug\netcoreapp3.0\fininex.runtimeconfig.dev.json
+D:\dev\Training\dotNet\fininex\fininex\bin\Debug\netcoreapp3.0\fininex.dll
+D:\dev\Training\dotNet\fininex\fininex\bin\Debug\netcoreapp3.0\fininex.pdb
+D:\dev\Training\dotNet\fininex\fininex\obj\Debug\netcoreapp3.0\fininex.csprojAssemblyReference.cache
+D:\dev\Training\dotNet\fininex\fininex\obj\Debug\netcoreapp3.0\fininex.AssemblyInfoInputs.cache
+D:\dev\Training\dotNet\fininex\fininex\obj\Debug\netcoreapp3.0\fininex.AssemblyInfo.cs
+D:\dev\Training\dotNet\fininex\fininex\obj\Debug\netcoreapp3.0\fininex.dll
+D:\dev\Training\dotNet\fininex\fininex\obj\Debug\netcoreapp3.0\fininex.pdb
