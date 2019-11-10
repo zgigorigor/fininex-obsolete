@@ -1,0 +1,11 @@
+C:\Igor\dev\Training\fininex\bin\Debug\netcoreapp2.2\fininex.deps.json
+C:\Igor\dev\Training\fininex\bin\Debug\netcoreapp2.2\fininex.runtimeconfig.json
+C:\Igor\dev\Training\fininex\bin\Debug\netcoreapp2.2\fininex.runtimeconfig.dev.json
+C:\Igor\dev\Training\fininex\bin\Debug\netcoreapp2.2\fininex.dll
+C:\Igor\dev\Training\fininex\bin\Debug\netcoreapp2.2\fininex.pdb
+C:\Igor\dev\Training\fininex\obj\Debug\netcoreapp2.2\fininex.csprojAssemblyReference.cache
+C:\Igor\dev\Training\fininex\obj\Debug\netcoreapp2.2\fininex.csproj.CoreCompileInputs.cache
+C:\Igor\dev\Training\fininex\obj\Debug\netcoreapp2.2\fininex.AssemblyInfoInputs.cache
+C:\Igor\dev\Training\fininex\obj\Debug\netcoreapp2.2\fininex.AssemblyInfo.cs
+C:\Igor\dev\Training\fininex\obj\Debug\netcoreapp2.2\fininex.dll
+C:\Igor\dev\Training\fininex\obj\Debug\netcoreapp2.2\fininex.pdb
