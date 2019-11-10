@@ -17,6 +17,7 @@ UpdateNotes:
 									bin
 									obj
              - created c# project 
+			 - implemented simple logger
              
 
 ####
