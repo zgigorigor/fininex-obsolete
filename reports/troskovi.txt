@@ -1,0 +1,326 @@
+              | 
+Vinkovićeva   |
+Igor          |
+Izzy          |
+Naselje       |
+Ostalo        |
+
+oznaka:
+H - hrana
+R - režije
+O - ostalo
+NT - neplanirani troškovi
+OS - online shopping (u $)
+TOT - total
+P - Pointer
+
+
+datum    | +/- |iznos(kn)| oznaka| info
+18-01-05 |  -  |    5,80 |  H    | mlinar
+18-01-05 |  -  |  290,00 |  R    | vip-mobitel
+18-01-05 |  -  |   10,00 |  R    | b-net
+18-01-05 |  -  |  700,00 |  O    | 25ka
+18-01-05 |  -  |  200,00 |  O    | Leon-posudba
+18-01-05 |  -  | 1205,80 |  TOT  | total-dana
+18-01-06 |  -  |   $4.52 |  OS   | Loupe Eyeglass Lens Folding Magnifying Glasses Clip On Precise Magnifier Flip
+18-01-06 |  -  |   25,00 |  O    | Lucky Strike
+18-01-06 |  -  |   30,00 |  O    | Kava 
+18-01-06 |  -  |   78,00 |  O    | kino (2 ulaznice) 
+18-01-06 |  -  |  133,00 |  TOT  | total-dana 
+18-01-07 |  -  |    5,80 |  H    | mlinar
+18-01-07 |  -  |    5,80 |  TOT  | total-dana
+18-01-08 |  -  |   20,89 |  H    | konzum
+18-01-08 |  -  |  103,35 |  O    | pet shop
+18-01-08 |  -  |  124,24 |  TOT  | total-dana
+18-01-09 |  -  |   72,00 |  O    | kiosk
+18-01-09 |  -  |   15,94 |  H    | konzum
+18-01-09 |  -  |   87,94 |  TOT  | total-dana
+18-01-10 |  -  |   20,89 |  H    | konzum
+18-01-10 |  -  |   90,65 |  O    | ljekarna
+18-01-10 |  -  |  111,54 |  TOT  | total-dana
+18-01-11 |  -  |   29,39 |  H    | konzum
+18-01-11 |  +  |  360,00 |  P    | prijevoz
+18-01-11 |  -  |   34,40 |  O    | dm 
+18-01-11 |  -  |   38,99 |  O    | ljekarna
+18-01-11 |  -  |  109,93 |  H    | spar
+18-01-11 |  +  |  147,29 |  TOT  | total-dana
+18-01-12 |  -  |    0,00 |  TOT  | total-dana
+18-01-13 |  -  |    0,00 |  TOT  | total-dana
+18-01-14 |  -  |  122,35 |  H    | spar 
+18-01-14 |  -  |  122,35 |  TOT  | total-dana 
+18-01-15 |  -  |    0,00 |  TOT  | total-dana
+18-01-16 |  -  |  489,24 |  H    | kaufland
+18-01-16 |  -  |    5,00 |  H    | pekara
+18-01-16 |  -  |  494,24 |  TOT  | total-dana
+18-01-17 |  -  |   12,39 |  H    | konzum
+18-01-17 |  -  |  118,30 |  O    | pet shop
+18-01-17 |  -  |  130,69 |  TOT  | total-dana
+18-01-18 |  -  | 2000,00 |  O    | jaca
+18-01-18 |  -  |   21,47 |  H    | konzum
+18-01-18 |  -  | 2021,47 |  TOT  | total-dana
+18-01-19 |  -  |   15,94 |  H    | konzum
+18-01-19 |  -  |  120,00 |  H    | med
+18-01-19 |  -  |   16,00 |  H    | mlinar
+18-01-19 |  +  |  100,00 |  O    | med-tata
+18-01-19 |  -  |  700,00 |  O    | 25ka
+18-01-19 |  -  |  751,94 |  TOT  | total-dana
+18-01-20 |  -  |  223,75 |  O    | pet shop
+18-01-20 |  -  |   71,00 |  O    | moj pas
+18-01-20 |  -  |  294,75 |  TOT  | total-dana
+18-01-21 |  -  |    0,00 |  TOT  | total-dana
+18-01-22 |  -  |   25,00 |  O    | kiosk
+18-01-22 |  -  |    9,90 |  H    | konzum
+18-01-22 |  -  |    4,95 |  H    | konzum
+18-01-22 |  -  |   39,85 |  TOT  | total-dana
+2018-01-23 | - |  21,38 (HRK) | HRA | konzum
+2018-01-23 | - |  70,00 (HRK) | HRA | submarine
+2018-01-23 | - |  91,38 (HRK) | TOT | total-dana
+2018-01-24 | - |  55,22 (HRK) | HRA | konzum
+2018-01-24 | - |  20,00 (HRK) | HRA | taquitos
+2018-01-24 | - |  75,22 (HRK) | TOT | total-dana
+2018-01-25 | - |  27,96 (HRK) | HRA | konzum
+2018-01-25 | - |  22,00 (HRK) | HRA | taquitos
+2018-01-25 | - |  49,96 (HRK) | TOT | total-dana
+2018-01-26 | - |  27,40 (HRK) | HRA | konzum
+2018-01-26 | - |  27,40 (HRK) | TOT | total-dana
+2018-01-27 | - | 112,00 (HRK) | OST | spar
+2018-01-27 | - | 112,00 (HRK) | TOT | total-dana
+2018-01-28 | - |  14,90 (HRK) | HRA | dubravica
+2018-01-28 | - |  81,00 (HRK) | OST | kiosk
+2018-01-28 | - |  98,92 (HRK) | HRA | spar
+2018-01-28 | - | 194,92 (HRK) | TOT | total-dana
+2018-01-29 | - |  25,00 (HRK) | OST | pljuge
+2018-01-29 | - |  26,40 (HRK) | HRA | konzum
+2018-01-29 | - |  50,00 (HRK) | OST | kabel za mobitel
+2018-01-29 | - | 101,40 (HRK) | TOT | total-dana
+2018-01-30 | - |  25,88 (HRK) | HRA | konzum
+2018-01-30 | - |  77,26 (HRK) | HRA | spar
+2018-01-30 | - | 160,00 (HRK) | OST | torbica
+2018-01-30 | - | 263,14 (HRK) | TOT | total-dana
+2018-01-31 | + |  15,00 (EUR) | Ostalo (Jaca)
+2018-01-31 | - |  36,21 (HRK) | HRA | konzum
+2018-01-31 | - | 104,24 (HRK) | HRA | spar
+2018-01-31 | + |  15,00 (EUR) | TOT | total-dana
+2018-01-31 | - | 140,45 (HRK) | TOT | total-dana
+6.608,97kn
+
+2018-02-01 | - |  100,00 (HRK) | POI | dodao iznos za vinjetu
+2018-02-01 | - |   21,42 (EUR) | HRA | hofer
+2018-02-01 | - |  226,00 (HRK) | NTR | veterinar
+2018-02-01 | - |   16,00 (HRK) | OST | kava
+2018-02-01 | + | 6007,74 (HRK) | POI | placa
+2018-02-01 | ++ |  236,09 (HRK) | TOT | total-dana
+-dana
+2018-02-01 | - |   21,42 (EUR) | TOT | total-dana
+2018-02-02 | - |   43,91 (HRK) | HRA | konzum
+2018-02-02 | + |  360,00 (HRK) | POI | prijevoz
+2018-02-02 | - |   80,00 (HRK) | NTR | veterinar
+2018-02-02 | + |  236,09 (HRK) | TOT | total-dana
+2018-02-03 | - |  195,00 (HRK) | NTR | veterinar
+2018-02-03 | - |   60,00 (HRK) | HRA | budweiser
+2018-02-03 | - |  172,90 (HRK) | HRA | spar
+2018-02-03 | - |  367,90 (HRK) | TOT | total-dana
+2018-02-04 | - |   25,00 (HRK) | OST | pljuge
+2018-02-04 | - |   25,00 (HRK) | TOT | total-dana
+2018-02-05 | - |   36,87 (HRK) | HRA | konzum
+2018-02-05 | - |   18,97 (HRK) | HRA | crodux
+2018-02-05 | - |   55,84 (HRK) | TOT | total-dana
+2018-02-06 | + |  576,00 (HRK) | POI | kompenzacija osobnih troskova
+2018-02-06 | + |  576,00 (HRK) | TOT | total-dana
+2018-02-07 | - |   20,47 (HRK) | HRA | kaufland
+2018-02-07 | - |   20,47 (HRK) | TOT | total-dana
+2018-02-08 | - |   30,00 (HRK) | OST | lonia
+2018-02-08 | - |   50,00 (HRK) | OST | kava
+2018-02-08 | - |   80,00 (HRK) | TOT | total-dana
+2018-02-09 | - |   25,00 (HRK) | OST | kava
+2018-02-09 | - |  200,00 (HRK) | OST | posudba-ivan
+2018-02-09 | - |  225,00 (HRK) | TOT | total-dana
+2018-02-10 | - |   25,00 (HRK) | OST | pljuge
+2018-02-10 | - |   14,00 (HRK) | OST | boeing
+2018-02-10 | - |   39,00 (HRK) | TOT | total-dana
+1.-10. +5643,20 kn; -21,42 eur
+2018-02-11 | - |   25,00 (HRK) | OST | pljuge
+2018-02-11 | - |   40,00 (HRK) | OST | kava
+2018-02-11 | - |   65,00 (HRK) | TOT | total-dana
+2018-02-12 | - |   25,00 (HRK) | OST | pljuge
+2018-02-12 | - | 1194,60 (HRK) | REZ | režije
+2018-02-12 | - |   19,08 (HRK) | REZ | neplanirani-troskovi
+2018-02-12 | - |   16,00 (HRK) | HRA | mcdonalds
+2018-02-12 | - |  324,61 (HRK) | HRA | kaufland
+2018-02-12 | - |  250,00 (HRK) | OST | 5
+2018-02-12 | - |  351,01 (HRK) | OST | pet-shop
+2018-02-12 | - | 2180,30 (HRK) | TOT | total-dana
+2018-02-13 | - |    4,59 (HRK) | HRA | konzum
+2018-02-13 | - |   30,00 (HRK) | HRA | kantina radnička
+2018-02-13 | - |   34,59 (HRK) | TOT | total-dana
+2018-02-14 | - |    4,95 (HRK) | HRA | konzum
+2018-02-14 | - |   62,00 (HRK) | HRA | submarine
+2018-02-14 | - |   77,70 (HRK) | OST | dm
+2018-02-14 | - |    5,80 (HRK) | HRA | mlinar
+2018-02-14 | - |  150,45 (HRK) | TOT | total-dana
+2018-02-15 | - |   25,00 (HRK) | OST | pljuge
+2018-02-15 | - |   20,00 (HRK) | OST | kava
+2018-02-15 | - |   20,00 (HRK) | HRA | gablec
+2018-02-15 | - |   51,25 (HRK) | HRA | konzum
+2018-02-15 | - |   10,00 (HRK) | REZ | b-net
+2018-02-15 | - |  290,00 (HRK) | REZ | vip
+2018-02-15 | - |  416,25 (HRK) | TOT | total-dana
+2018-02-16 | - |    3,45 (HRK) | HRA | dubravica
+2018-02-16 | - |   25,00 (HRK) | OST | pljuge
+2018-02-16 | - |   26,92 (HRK) | HRA | konzum
+2018-02-16 | - |   30,00 (HRK) | HRA | kantina radnička
+2018-02-16 | - |  900,00 (HRK) | OST | 25
+2018-02-16 | - |  985,37 (HRK) | TOT | total-dana
+2018-02-17 | - |    8,00 (HRK) | OST | pseci keksi
+2018-02-17 | - |  110,00 (HRK) | OST | karte za izlozbu-Tesla
+2018-02-17 | - |  103,50 (HRK) | HRA | vino
+2018-02-17 | - |    8,60 (HRK) | HRA | dubravica
+2018-02-17 | - | 2000,00 (HRK) | REZ | jaca
+2018-02-17 | - |   30,00 (HRK) | OST | rizle
+2018-02-17 | - |   30,00 (HRK) | OST | kava
+2018-02-17 | - |   46,54 (HRK) | HRA | konzum
+2018-02-17 | - | 2336,64 (HRK) | TOT | total-dana
+2018-02-19 | - |   26,92 (HRK) | HRA | konzum
+2018-02-19 | - |   26,92 (HRK) | TOT | total-dana
+2018-02-20 | - |   25,00 (HRK) | OST | uber
+2018-02-20 | - |   50,00 (HRK) | OST | pljuge
+2018-02-20 | - |  528,00 (HRK) | OST | neplanirani-troskovi
+2018-02-20 | - |   25,00 (HRK) | OST | uber
+2018-02-20 | - |  628,00 (HRK) | TOT | total-dana
+11.2.-20.2. -6796,60kn
+2018-02-21 | - |   20,00 (HRK) | OST | kava
+2018-02-21 | - |   15,94 (HRK) | HRA | konzum
+2018-02-21 | - |  115,00 (HRK) | HRA | veterinar
+2018-02-21 | - |   25,00 (HRK) | OST | veterinar
+2018-02-21 | - |  175,94 (HRK) | TOT | total-dana
+2018-02-22 | - |   57,48 (HRK) | HRA | konzum
+2018-02-22 | - |  110,00 (HRK) | OST | jaca-bon
+2018-02-22 | - |  167,48 (HRK) | TOT | total-dana
+2018-02-23 | - |   15,94 (HRK) | HRA | konzum
+2018-02-23 | - |  200,00 (HRK) | OST | marko-posudba
+2018-02-23 | - |  215,94 (HRK) | TOT | total-dana
+2018-02-24 | - |  115,00 (HRK) | HRA | veterinar
+2018-02-24 | - |   42,40 (HRK) | OST | dm
+2018-02-24 | - |    4,00 (HRK) | HRA | mlinar
+2018-02-24 | - |   52,81 (HRK) | HRA | konzum
+2018-02-24 | - |  214,21 (HRK) | TOT | total-dana
+2018-02-25 | - |  133,89 (HRK) | HRA | spar
+2018-02-25 | + |   20,00 (HRK) | OST | ana
+2018-02-25 | - |   10,00 (HRK) | OST | kava
+2018-02-25 | - |   16,97 (HRK) | HRA | spar
+2018-02-25 | + |  100,00 (HRK) | OST | ema
+2018-02-25 | - |   40,86 (HRK) | TOT | total-dana
+2018-02-26 | - |   17,92 (HRK) | HRA | konzum
+2018-02-26 | - |   50,00 (HRK) | OST | pljuge
+2018-02-26 | - |   67,92 (HRK) | TOT | total-dana
+2018-02-27 | - |   26,94 (HRK) | HRA | konzum
+2018-02-27 | - |   25,87 (HRK) | HRA | gablec
+2018-02-27 | + |  200,00 (HRK) | OST | marko-dug
+2018-02-27 | + |  147,19 (HRK) | TOT | total-dana
+2018-02-28 | - |   60,00 (HRK) | HRA | gablec
+2018-02-28 | + |  360,00 (HRK) | OST | prijevoz
+2018-02-28 | - |   50,00 (HRK) | OST | šišanje
+2018-02-28 | - |   80,00 (HRK) | HRA | izzy-hovhov
+2018-02-28 | - |   20,32 (HRK) | HRA | konzum
+2018-02-28 | + |  149,68 (HRK) | TOT | total-dana
+21.2.-28.2. -585,48kn
+1.2.-28.2. -1.738,88kn; -21,42 eur
+
+2018-03-01 | - |    8,74 (HRK) | HRA | konzum
+2018-03-01 | - | 6007,74 (HRK) | POI | placa
+2018-03-01 | + | 5999,99 (HRK) | TOT | total-dana
+2018-03-02 | - |   16,89 (HRK) | HRA | konzum
+2018-03-02 | - |   30,00 (HRK) | HRA | gablec
+2018-03-02 | - |   52,26 (HRK) | HRA | konzum
+2018-03-02 | + |   50,00 (HRK) | OST | Leon-dug
+2018-03-02 | - |  100,00 (HRK) | OST | stoka-cd i majica
+2018-03-02 | - |  100,00 (HRK) | OST | nino-posudba
+2018-03-02 | - |   50,85 (HRK) | TOT | total-dana
+2018-03-03 | - |   50,00 (HRK) | OST | pljuge
+2018-03-03 | - |   45,00 (HRK) | OST | kava
+2018-03-03 | - |   86,66 (HRK) | HRA | interspar
+2018-03-03 | - |  179,99 (HRK) | OST | Leon-posudba
+2018-03-03 | - |  249,99 (HRK) | OST | tipkovnica
+2018-03-03 | + |  200,00 (HRK) | OST | Leon-dug
+2018-03-03 | - |  411,64 (HRK) | TOT | total-dana
+2018-03-04 |   |    0,00 (HRK) | TOT | total-dana
+2018-03-05 | - |   50,80 (HRK) | HRA | konzum
+2018-03-05 | + |  200,00 (HRK) | OST | ivan-dug
+2018-03-05 | - |   69,00 (HRK) | OST | izzy-konzerve
+2018-03-05 | - |   30,00 (HRK) | HRA | gablec
+2018-03-05 | - |  101,00 (HRK) | OST | duhan, rizle
+2018-03-05 | - |   50,80 (HRK) | TOT | total-dana
+2018-03-06 | - |  290,00 (HRK) | REZ | vip
+2018-03-06 | - |   10,00 (HRK) | REZ | b-net
+2018-03-06 | - |  300,00 (HRK) | TOT | total-dana
+2018-03-07 | - |   21,42 (HRK) | HRA | konzum
+2018-03-07 | - |   30,00 (HRK) | HRA | gablec
+2018-03-07 | - |   51,42 (HRK) | TOT | total-dana
+2018-03-08 | - |   20,00 (HRK) | OST | dan žena
+2018-03-08 | - |   30,00 (HRK) | HRA | gablec
+2018-03-08 | - |   10,76 (HRK) | OST | konzum
+2018-03-08 | - |   50,00 (HRK) | TOT | total-dana
+2018-03-09 | - |   21,43 (HRK) | HRA | konzum
+2018-03-09 | + |  100,00 (HRK) | OST | nino-dug
+2018-03-09 | + |   75,57 (HRK) | TOT | total-dana
+2018-03-10 | - |   25,00 (HRK) | OST | pljuge
+2018-03-10 | - |  117,50 (HRK) | HRA | izzy-konzerve
+2018-03-10 | - |   20,10 (HRK) | HRA | mlinar
+2018-03-10 | - | 1000,00 (HRK) | OST | 25
+2018-03-10 | - |   55,00 (HRK) | HRA | mcdonalds
+2018-03-10 | - |   20,00 (HRK) | OST | uber
+2018-03-10 | - | 1237,60 (HRK) | TOT | total-dana
+1.3.-10.3. +3.923,25kn
+2018-03-11 |   |    0,00 (HRK) | TOT | total-dana
+2018-03-12 | - |   12,90 (HRK) | HRA | mlinar
+2018-03-12 | - |   50,00 (HRK) | OST | pljuge
+2018-03-12 | - |    6,00 (HRK) | OST | kava
+2018-03-12 | - |   30,00 (HRK) | OST | uber
+2018-03-12 | - |   30,00 (HRK) | OST | uber
+2018-03-12 | - |   71,66 (HRK) | HRA | konzum
+2018-03-12 | - |  200,56 (HRK) | TOT | total-dana
+2018-03-13 | - |   20,00 (HRK) | OST | kava
+2018-03-13 | - |  321,98 (HRK) | HRA | lidl
+2018-03-13 | - |   40,00 (HRK) | OST | iva-za pončo
+2018-03-13 | - |  353,68 (HRK) | HRA | kaufland
+2018-03-13 | - |  200,00 (HRK) | OST | nutribullet dodatak
+2018-03-13 | - |   56,00 (HRK) | HRA | mcdonalds
+2018-03-13 | - |  255,51 (HRK) | OST | benzin-jaca
+2018-03-13 | - |   54,00 (HRK) | OST | pet-shop
+2018-03-13 | - |   60,85 (HRK) | OST | pet-shop
+2018-03-13 | - |  895,05 (HRK) | OST | izzy-sterilizacija
+2018-03-13 | - | 2257,07 (HRK) | TOT | total-dana
+2018-03-14 | - |   17,00 (HRK) | HRA | mlinar
+2018-03-14 | - |   17,00 (HRK) | TOT | total-dana
+2018-03-15 | - |  124,30 (HRK) | HRA | pet-shop
+2018-03-15 | - |  270,67 (HRK) | HRA | lidl
+2018-03-15 | - |   49,97 (HRK) | HRA | lidl-jaca
+2018-03-15 | - |   25,90 (HRK) | OST | pepco
+2018-03-15 | - |   90,00 (HRK) | OST | uokvirivanje
+2018-03-15 | - |  560,84 (HRK) | TOT | total-dana
+2018-03-16 |   |    0,00 (HRK) | TOT | total-dana
+11.3.-16.3. -3.035,47kn
+
+
+
+
+2018-03-17 | - |     , (HRK) |  | 
+2018-03-17 | - |     , (HRK) |  | 
+2018-03-17 |  |     , (HRK) | TOT | total-dana
+
+
+
+2018-03-xx | - |     , (HRK) |  | 
+2018-03-xx |  |     , (HRK) | TOT | total-dana
+
+
+
+
+
+---
+Leon-dug 130kn
+    posudba 200kn - rođ
+    vratio 50kn - karta za stoku
+    posudio 179,99kn - tipkovnica
+    vratio 200kn
+---
