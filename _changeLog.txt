@@ -14,6 +14,8 @@ UpdateNotes:
              - created git repository
              - created ".gitignore":
                                     .vs
+									bin
+									obj
              - created c# project 
              
 
