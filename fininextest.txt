@@ -26,3 +26,23 @@ Fininex booting...
 11/11/2019 21:35:57 .. start fininex history mode
 11/11/2019 21:35:59 UI 
 11/11/2019 21:35:59 !! fininex terminated.
+11/11/2019 21:45:42 .. fininex booting...
+11/11/2019 21:45:45 !! finninex started.
+11/11/2019 21:45:46 ?? date user choice: yes
+11/11/2019 21:45:46 UI 11/11/2019
+11/11/2019 21:45:46 !! fininex terminated.
+17/11/2019 22:21:02 .. fininex booting...
+17/11/2019 22:21:04 !! finninex started.
+17/11/2019 22:21:05 ?? date user choice: yes
+17/11/2019 22:21:05 UI 17/11/2019
+17/11/2019 22:21:05 !! fininex terminated.
+17/11/2019 22:55:15 .. fininex booting...
+17/11/2019 22:55:17 !! finninex started.
+17/11/2019 22:55:18 ?? date user choice: yes
+17/11/2019 22:55:18 UI 17/11/2019
+17/11/2019 22:55:18 !! fininex terminated.
+17/11/2019 23:07:47 .. fininex booting...
+17/11/2019 23:07:48 !! finninex started.
+17/11/2019 23:07:49 ?? date user choice: yes
+17/11/2019 23:07:49 UI 17/11/2019
+17/11/2019 23:07:49 !! fininex terminated.

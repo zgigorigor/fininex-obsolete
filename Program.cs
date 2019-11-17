@@ -9,8 +9,10 @@ namespace fininex
         {
             var testlogPath = "C:\\Igor\\dev\\Training\\fininex\\fininextest.txt";
             //var logPath = "C:\\Igor\\dev\\Training\\fininex\\fininexlog.txt";
+
             // LOGGER START
             System.IO.File.AppendAllText(testlogPath, $"{DateTime.Now} .. fininex booting...\n");
+
             // APP START
             Console.Write("Start fininex? (y/n) ");
             var startApp = Console.ReadLine();
@@ -48,11 +50,15 @@ namespace fininex
                                 
             }
 
-            System.IO.File.AppendAllText(testlogPath, $"{DateTime.Now} !! fininex terminated.\n");
             // INCOME INPUT
+            Earnings zarada = new Earnings();
+            Console.WriteLine(zarada);
+            
+
             // EXPENSES INPUT
             // BALANCE CALCULATION
             // EXIT PROGRAM
+            System.IO.File.AppendAllText(testlogPath, $"{DateTime.Now} !! fininex terminated.\n");
         }
     }
 }
