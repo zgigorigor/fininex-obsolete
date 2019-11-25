@@ -1,0 +1,32 @@
+####    _changeLog.txt      ####
+
+####  
+
+      Title: fininex
+     Author: Igor Bistrovic
+    Company: 
+    Project: AutoLife
+    Version: 0.0.3
+UpdateNotes: 
+ Change log: 
+19/11/10:    
+			 - created "README.txt"
+             - created "_changeLog.txt"
+             - created git repository
+             - created ".gitignore":
+                                    .vs
+									bin
+									obj
+             - created c# project 
+			 - implemented simple logger			 
+19/11/11:	 
+			 - updated logger, tracking almost all actions in Program.cs
+             - changed if (startApp == "no") to if (startApp == "n")
+19/11/18:
+			 - removed Logger.cs and Earnings.cs
+19/11/23:
+			 - created class Logger
+			 - implemented easier way of logging
+			 - created C: and D: structure for logging
+
+####
