@@ -34,4 +34,6 @@ UpdateNotes:
 			 - created class Income
 			 - implemented Logger into Income
 			 - started using Logger.data, ...\test_fininexdata.txt
+			 - tested Income handling
+			 - added End label
 ####

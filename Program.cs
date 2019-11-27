@@ -116,17 +116,26 @@ namespace fininex
                 Console.Write("Income amount: ");
                 string tempIncomeInput = Console.ReadLine();
                 income.amount(tempIncomeInput);
-
+                Console.Write("More income? (y/n) ");
+                startInp = Console.ReadLine();
+                if (startInp == "n")
+                {
+                    Console.WriteLine("Income recorded. Proceed to expenses input");
+                    logging.info("!!!", "finished income input");
+                    //return;
+                    goto End;
+                }
             } while (startInput == true);
 
 
+            // EXPENSES INPUT
+            
+            // BALANCE CALCULATION
 
-        // EXPENSES INPUT
-        // BALANCE CALCULATION
-        // EXIT PROGRAM
-        //System.IO.File.AppendAllText(testlogPath, $"{DateTime.Now} !! fininex terminated.\n");
-        
-         
+            // EXIT PROGRAM
+            End:
+            Console.WriteLine("Fininex closing. Goodbye!");
+            logging.info("!!!", "fininex terminated.");
         }
     }
 }
@@ -137,3 +146,4 @@ namespace fininex
 //todo:
 //
 // kod upisa prihoda provjeravati upisivanje lipa (n,nn)
+// log mora bilježiti datum za svaki upis (npr kada se upisuju povjesni podatci) 
