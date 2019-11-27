@@ -6,7 +6,7 @@
      Author: Igor Bistrovic
     Company: 
     Project: AutoLife
-    Version: 0.0.16
+    Version: 0.0.17
 UpdateNotes: 
  Change log: 
 19/11/10:    
@@ -38,4 +38,5 @@ UpdateNotes:
 			 - added End label
 			 - added info to enter data in n.nn format
 			 - created class Expenses
+			 - implemented check of data input (n.nn)
 ####

@@ -119,12 +119,16 @@ namespace fininex
             }
             do
             {
+                string subStr = ".";
                 Console.Write("Income amount (n.nn): ");
                 string tempIncomeInput1 = Console.ReadLine();
-                //int tempIncomeInput2 = Int32.Parse(tempIncomeInput1);
-                //string inputFormat = tempIncomeInput2.ToString("0.00");
-                //string tempIncomeInput3 = tempIncomeInput2.ToString("0.00");
-                income.amount(tempIncomeInput1);
+                if (tempIncomeInput1.Contains(subStr)) {income.amount(tempIncomeInput1);}
+                else
+                {
+                    int tempIncomeInput2 = Int32.Parse(tempIncomeInput1);
+                    string inputFormat = tempIncomeInput2.ToString("0.00");
+                    income.amount(inputFormat);
+                }
                 Console.Write("More income? (y/n) ");
                 startInp = Console.ReadLine();
                 if (startInp == "n")
@@ -148,11 +152,3 @@ namespace fininex
         }
     }
 }
-
-
-//// System.IO.File.AppendAllText(testlogPath, $"{DateTime.Now} \n");
-
-//todo:
-//
-// kod upisa prihoda provjeravati upisivanje lipa (n,nn) i dodati .00 ako nisu upisane
-// log mora bilježiti datum za svaki upis (npr kada se upisuju povjesni podatci) 
