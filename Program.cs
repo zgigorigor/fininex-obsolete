@@ -31,9 +31,11 @@ class Income
 {
     public void amount(string incomeAmountTemp)
     {
-        int incomeAmount = Int32.Parse(incomeAmountTemp);
+        //int incomeAmount = Int32.Parse(incomeAmountTemp);
+        //string incomeAmountFormated = incomeAmount.ToString("0.00");
         Logger logging = new Logger();
-        logging.data(" + ", $"income amount: {incomeAmount}");
+        //logging.data(" + ", $"income amount: {incomeAmountFormated}");
+        logging.data(" + ", $"income amount: {incomeAmountTemp}");
     }
 }
 
@@ -113,17 +115,20 @@ namespace fininex
             
             do
             {
-                Console.Write("Income amount: ");
-                string tempIncomeInput = Console.ReadLine();
-                income.amount(tempIncomeInput);
+                Console.Write("Income amount (n.nn): ");
+                string tempIncomeInput1 = Console.ReadLine();
+                //int tempIncomeInput2 = Int32.Parse(tempIncomeInput1);
+                //string inputFormat = tempIncomeInput2.ToString("0.00");
+                //string tempIncomeInput3 = tempIncomeInput2.ToString("0.00");
+                income.amount(tempIncomeInput1);
                 Console.Write("More income? (y/n) ");
                 startInp = Console.ReadLine();
                 if (startInp == "n")
                 {
                     Console.WriteLine("Income recorded. Proceed to expenses input");
                     logging.info("!!!", "finished income input");
-                    //return;
-                    goto End;
+                    startInput = false;
+                    break;
                 }
             } while (startInput == true);
 
@@ -133,7 +138,7 @@ namespace fininex
             // BALANCE CALCULATION
 
             // EXIT PROGRAM
-            End:
+            //End:
             Console.WriteLine("Fininex closing. Goodbye!");
             logging.info("!!!", "fininex terminated.");
         }

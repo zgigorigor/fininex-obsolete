@@ -36,4 +36,5 @@ UpdateNotes:
 			 - started using Logger.data, ...\test_fininexdata.txt
 			 - tested Income handling
 			 - added End label
+			 - added info to enter data in n.nn format
 ####
