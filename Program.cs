@@ -100,7 +100,6 @@ namespace fininex
             // INCOME INPUT
             Income income = new Income();
             bool startInput;
-
             Console.Write("Would you like to input income amount? (y/n) ");
             var startInp = Console.ReadLine();
             if (startInp == "n")
@@ -112,7 +111,6 @@ namespace fininex
             {
                 startInput = true;
             }
-            
             do
             {
                 Console.Write("Income amount (n.nn): ");
@@ -150,5 +148,5 @@ namespace fininex
 
 //todo:
 //
-// kod upisa prihoda provjeravati upisivanje lipa (n,nn)
+// kod upisa prihoda provjeravati upisivanje lipa (n,nn) i dodati .00 ako nisu upisane
 // log mora bilježiti datum za svaki upis (npr kada se upisuju povjesni podatci) 

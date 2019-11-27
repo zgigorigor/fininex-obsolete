@@ -6,7 +6,7 @@
      Author: Igor Bistrovic
     Company: 
     Project: AutoLife
-    Version: 0.0.3
+    Version: 0.0.6
 UpdateNotes: 
  Change log: 
 19/11/10:    
