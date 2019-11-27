@@ -42,6 +42,12 @@ class Income
 class Expenses
 {
     // hendla troskove
+    public void amount(int expenseAmountTemp)
+    {
+
+        Logger logging = new Logger();
+        logging.data(" - ", $" expense amount: {expenseAmountTemp}");
+    }
 }
 
 class Balance
