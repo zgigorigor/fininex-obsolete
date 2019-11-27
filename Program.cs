@@ -29,7 +29,12 @@ class Logger
 
 class Income
 {
-    // hendla income
+    public void amount(string incomeAmountTemp)
+    {
+        int incomeAmount = Int32.Parse(incomeAmountTemp);
+        Logger logging = new Logger();
+        logging.data(" + ", $"income amount: {incomeAmount}");
+    }
 }
 
 class Expenses
@@ -90,9 +95,30 @@ namespace fininex
                 Console.WriteLine($"Entering data for: {dateHistory}");
             }
 
-        // INCOME INPUT
-        //Earnings zarada = new Earnings();
-        //Console.WriteLine(zarada);
+            // INCOME INPUT
+            Income income = new Income();
+            bool startInput;
+
+            Console.Write("Would you like to input income amount? (y/n) ");
+            var startInp = Console.ReadLine();
+            if (startInp == "n")
+            {
+                startInput = false;
+                return;
+            }
+            else
+            {
+                startInput = true;
+            }
+            
+            do
+            {
+                Console.Write("Income amount: ");
+                string tempIncomeInput = Console.ReadLine();
+                income.amount(tempIncomeInput);
+
+            } while (startInput == true);
+
 
 
         // EXPENSES INPUT
@@ -107,3 +133,7 @@ namespace fininex
 
 
 //// System.IO.File.AppendAllText(testlogPath, $"{DateTime.Now} \n");
+
+//todo:
+//
+// kod upisa prihoda provjeravati upisivanje lipa (n,nn)

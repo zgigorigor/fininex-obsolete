@@ -30,4 +30,8 @@ UpdateNotes:
 			 - created C: and D: structure for logging
 19/11/25:	 
 			 - added log/ to .gitignore
+19/11/27:
+			 - created class Income
+			 - implemented Logger into Income
+			 - started using Logger.data, ...\test_fininexdata.txt
 ####
