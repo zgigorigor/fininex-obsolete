@@ -4,13 +4,13 @@ class Logger
 {
     //string logPath = "C:\\Igor\\dev\\Training\\fininex\\fininexlog.txt";
     //string logDataPath = "C:\\Igor\\dev\\Training\\fininex\\fininexdata.txt";
-    //string test_logPath = "C:\\Igor\\dev\\Training\\fininex\\test_fininexlog.txt";
-    //string test_logDataPath = "C:\\Igor\\dev\\Training\\fininex\\test_fininexdata.txt";
+    string test_logPath = "C:\\Igor\\dev\\Biig_dev\\fininex\\log\\test_fininexlog.txt";
+    string test_logDataPath = "C:\\Igor\\dev\\Biig_dev\\fininex\\log\\test_fininexdata.txt";
 
     //string logPath = "D:\\dev\\Biig_dev\\cs\\log\\fininexlog.txt";
     //string logDataPath = "D:\\dev\\Biig_dev\\cs\\log\\fininexdata.txt";
-    string test_logPath = "D:\\dev\\Biig_dev\\cs\\log\\test_fininexlog.txt";
-    string test_logDataPath = "D:\\dev\\Biig_dev\\cs\\log\\test_fininexdata.txt";
+    //string test_logPath = "D:\\dev\\Biig_dev\\cs\\log\\test_fininexlog.txt";
+    //string test_logDataPath = "D:\\dev\\Biig_dev\\cs\\log\\test_fininexdata.txt";
 
     public void info(string flg, string comment)
     {
@@ -25,6 +25,21 @@ class Logger
         //Console.WriteLine("test logging");
         System.IO.File.AppendAllText(path, $"{DateTime.Now} | {flg} | {comment}\n");
     }
+}
+
+class Income
+{
+    // hendla income
+}
+
+class Expenses
+{
+    // hendla troskove
+}
+
+class Balance
+{
+    // hendla konačno stanje računa
 }
 
 namespace fininex
@@ -57,7 +72,14 @@ namespace fininex
             // DATE CHECK
             Console.Write("Use today's date? (y/n) ");
             string dateQ = Console.ReadLine();
-            if (dateQ == "n")
+            if (dateQ != "n")
+            {
+                logging.info("???", "today's date? choice: yes");
+                DateTime now = DateTime.Now;
+                logging.info("INP", $"input for {now.ToString("d")}");
+                Console.WriteLine(now.ToString("d"));
+            }
+            else
             {
                 logging.info("???", "today's date? choice: no");
                 Console.WriteLine("Starting fininex history mode...");
@@ -65,15 +87,7 @@ namespace fininex
                 Console.Write("Please enter date: (YY/MM/DD) ");
                 var dateHistory = Console.ReadLine();
                 logging.info("INP", $"input for {dateHistory}");
-                Console.WriteLine(dateHistory);
-            }
-            else
-            {
-                logging.info("???", "today's date? choice: yes");
-                DateTime now = DateTime.Now;
-                logging.info("INP", $"input for {now.ToString("d")}");
-                Console.WriteLine(now.ToString("d"));
-                                
+                Console.WriteLine($"Entering data for: {dateHistory}");
             }
 
         // INCOME INPUT

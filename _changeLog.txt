@@ -28,5 +28,6 @@ UpdateNotes:
 			 - created class Logger
 			 - implemented easier way of logging
 			 - created C: and D: structure for logging
-
+19/11/25:	 
+			 - added log/ to .gitignore
 ####
