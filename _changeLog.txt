@@ -6,7 +6,7 @@
      Author: Igor Bistrovic
     Company: 
     Project: AutoLife
-    Version: 0.0.17
+    Version: 0.0.19
 UpdateNotes: 
  Change log: 
 19/11/10:    
@@ -39,4 +39,7 @@ UpdateNotes:
 			 - added info to enter data in n.nn format
 			 - created class Expenses
 			 - implemented check of data input (n.nn)
+19/11/30:
+			 - implemented expenses input
+			 - 
 ####

@@ -42,11 +42,11 @@ class Income
 class Expenses
 {
     // hendla troskove
-    public void amount(int expenseAmountTemp)
+    public void amount(string expenseAmountTemp)
     {
 
         Logger logging = new Logger();
-        logging.data(" - ", $" expense amount: {expenseAmountTemp}");
+        logging.data(" - ", $"expense amount: {expenseAmountTemp}");
     }
 }
 
@@ -61,11 +61,12 @@ namespace fininex
     {
         static void Main(string[] args)
         {
-            // LOGGER START
+            string subStr = ".";
+// LOGGER START
             Logger logging = new Logger();
             logging.info("!!!", "fininex booting...");
 
-            // APP START
+// APP START
             Console.Write("Start fininex? (y/n) ");
             var startApp = Console.ReadLine();
             if (startApp == "n")
@@ -82,7 +83,7 @@ namespace fininex
                 logging.info("!!!", "finninex started.");
             }
 
-            // DATE CHECK
+// DATE CHECK
             Console.Write("Use today's date? (y/n) ");
             string dateQ = Console.ReadLine();
             if (dateQ != "n")
@@ -103,7 +104,8 @@ namespace fininex
                 Console.WriteLine($"Entering data for: {dateHistory}");
             }
 
-            // INCOME INPUT
+// INCOME INPUT
+            logging.info("!!!", "starting income input");
             Income income = new Income();
             bool startInput;
             Console.Write("Would you like to input income amount? (y/n) ");
@@ -111,23 +113,29 @@ namespace fininex
             if (startInp == "n")
             {
                 startInput = false;
-                return;
+                logging.info("???", "income input? choice: no");
+                logging.info("!!!", "terminating income input.");
+                goto ExpenseInput;
+                //return;
             }
             else
             {
                 startInput = true;
+                logging.info("???", "income input? choice: yes");
+                logging.info("!!!", "started income input");
             }
             do
             {
-                string subStr = ".";
+                //string subStr = ".";
                 Console.Write("Income amount (n.nn): ");
                 string tempIncomeInput1 = Console.ReadLine();
-                if (tempIncomeInput1.Contains(subStr)) {income.amount(tempIncomeInput1);}
+                if (tempIncomeInput1.Contains(subStr))
+                { income.amount(tempIncomeInput1); }
                 else
                 {
                     int tempIncomeInput2 = Int32.Parse(tempIncomeInput1);
-                    string inputFormat = tempIncomeInput2.ToString("0.00");
-                    income.amount(inputFormat);
+                    string incomeFormat = tempIncomeInput2.ToString("0.00");
+                    income.amount(incomeFormat);
                 }
                 Console.Write("More income? (y/n) ");
                 startInp = Console.ReadLine();
@@ -141,12 +149,66 @@ namespace fininex
             } while (startInput == true);
 
 
-            // EXPENSES INPUT
-            
-            // BALANCE CALCULATION
+// EXPENSES INPUT
+            ExpenseInput:
+            logging.info("!!!", "starting expenses input");
+            Expenses expense = new Expenses();
+            bool startExpenses;
+            Console.Write("Would you like to input expense amount? (y/n) ");
+            var startExp = Console.ReadLine();
+            if (startExp != "n")
+            {
+                startExpenses = true;
+                logging.info("???", "expenses input? choice: yes");
+                logging.info("!!!", "started expenses input");
+            }
+            else
+            {
+                startExpenses = false;
+                logging.info("???", "expenses input? choice: no");
+                logging.info("!!!", "terminating expenses input.");
+                goto End;
+            }
 
-            // EXIT PROGRAM
-            //End:
+            while (startExpenses = true)
+            {
+                Console.Write("Input your expendure (n.nn): ");
+                var tempExpenseInput1 = Console.ReadLine();
+                if (tempExpenseInput1.Contains(subStr))
+                {
+                    expense.amount(tempExpenseInput1);
+                }
+                else
+                {
+                    int tempExpenseInput2 = Int32.Parse(tempExpenseInput1);
+                    string expenseFormat = tempExpenseInput2.ToString("0.00");
+                    expense.amount(expenseFormat);
+
+                }
+                Console.Write("Input another (y/n)? ");
+                var anotherExpense = Console.ReadLine();
+                if (anotherExpense != "n")
+                {
+                    startExpenses = true;
+                    logging.info("???", "another expense? choice: yes");
+                }
+                else
+                {
+                    startExpenses = false;
+                    logging.info("???", "another expense? choice: no");
+                    logging.info("!!!", "finished expenses input");
+                    goto End;
+                }
+            }
+
+// BALANCE CALCULATION
+            logging.info("!!!", "started balance calculation");
+            Console.WriteLine($"Today's income: {}")
+
+            logging.info("!!!", "finished balance calculation");
+
+// EXIT PROGRAM
+        End:
             Console.WriteLine("Fininex closing. Goodbye!");
             logging.info("!!!", "fininex terminated.");
         }
