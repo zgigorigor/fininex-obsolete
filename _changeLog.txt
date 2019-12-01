@@ -6,7 +6,7 @@
      Author: Igor Bistrovic
     Company: 
     Project: AutoLife
-    Version: 0.0.19
+    Version: 0.1.00
 UpdateNotes: 
  Change log: 
 19/11/10:    
@@ -41,5 +41,11 @@ UpdateNotes:
 			 - implemented check of data input (n.nn)
 19/11/30:
 			 - implemented expenses input
-			 - 
+			 - changed int to float for parsing wrong input
+19/12/01:
+			 - fixed expenses while loop
+			 - changed startInput to startIncome
+			 - changed income loop (do while -> while)
+			 - created *.cs files and copied classes: Logger, Income, Expenses
+			 - code revision 0.1.0
 ####
