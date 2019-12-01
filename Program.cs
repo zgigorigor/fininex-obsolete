@@ -22,6 +22,39 @@ class Balance
     }
 }
 
+
+
+class Input
+{
+    Logger logging = new Logger();
+    Income Income = new Income();
+
+    public string UI(bool show)
+    {
+        string startInput = "Type amount (n.nn): ";
+        return startInput;
+    }
+    public string repeat(bool show)
+    {
+        string repeatInput = "Input more (y/n))? ";
+        return repeatInput;
+    }
+    
+    public float income(string tempAmount)
+    {
+        Income.amount(tempAmount);
+        float amount = float.Parse(tempAmount);
+        return amount;
+    }
+    
+}
+
+
+
+
+
+
+
 namespace fininex
 {
     class Program
@@ -73,48 +106,39 @@ namespace fininex
 
 // INCOME INPUT
             logging.info("!!!", "starting income input");
-            Income income = new Income();
+            Input input = new Input();
             bool startIncome;
             Console.Write("Would you like to input income amount? (y/n) ");
             var startInp = Console.ReadLine();
-            if (startInp == "n")
+            if (startInp != "n")
             {
-                startIncome = false;
-                logging.info("???", "income input? choice: no");
-                logging.info("!!!", "terminating income input.");
-                goto ExpenseInput;
-                //return;
+                logging.info("???", "income input? choice: yes");
+                startIncome = true;
+                logging.info("!!!", "started income input");
             }
             else
             {
-                startIncome = true;
-                logging.info("???", "income input? choice: yes");
-                logging.info("!!!", "started income input");
+                logging.info("???", "income input? choice: no");
+                startIncome = false;
+                logging.info("!!!", "terminating income input.");
+                goto ExpenseInput;
             }
-            
+
             while (startIncome == true)
             {
-                Console.Write("Income amount (n.nn): ");
-                string tempIncomeInput1 = Console.ReadLine();
-                if (tempIncomeInput1.Contains(subStr))
-                { income.amount(tempIncomeInput1); }
-                else
-                {
-                    float tempIncomeInput2 = float.Parse(tempIncomeInput1);
-                    string incomeFormat = tempIncomeInput2.ToString("0.00");
-                    income.amount(incomeFormat);
-                }
-                Console.Write("More income? (y/n) ");
+                Console.Write(input.UI(startIncome));
+                input.income(Console.ReadLine());
+                Console.Write(input.repeat(startIncome));
                 startInp = Console.ReadLine();
                 if (startInp == "n")
                 {
+                    logging.info("???", "more income input? choice: no");
+                    startIncome = false;
                     Console.WriteLine("Income recorded. Proceed to expenses input");
                     logging.info("!!!", "finished income input");
-                    startIncome = false;
-                    break;
+                    goto ExpenseInput;
                 }
             }
-
 
 // EXPENSES INPUT
             ExpenseInput:
@@ -169,12 +193,16 @@ namespace fininex
             }
 
 // BALANCE CALCULATION
+
+    /*
             logging.info("!!!", "started balance calculation");
-            //float expensesTotal = expense.totalExpenses();
-            //Console.WriteLine($"Today's income: {}")
-            //Console.WriteLine($"Today's total expenses: {expense.totalExpenses()}");
+            float expensesTotal = expense.totalExpenses();
+            Console.WriteLine($"Today's income: {}")
+            Console.WriteLine($"Today's total expenses: {expense.totalExpenses()}");
 
             logging.info("!!!", "finished balance calculation");
+
+    */
 
 // EXIT PROGRAM
         End:

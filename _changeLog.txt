@@ -6,7 +6,7 @@
      Author: Igor Bistrovic
     Company: 
     Project: AutoLife
-    Version: 0.1.00
+    Version: 0.1.02
 UpdateNotes: 
  Change log: 
 19/11/10:    
@@ -48,4 +48,6 @@ UpdateNotes:
 			 - changed income loop (do while -> while)
 			 - created *.cs files and copied classes: Logger, Income, Expenses
 			 - code revision 0.1.0
+			 - reworked how income works
+			 - created class Input
 ####
